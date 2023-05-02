@@ -1,0 +1,66 @@
+@import "../../styles/styles.scss";
+
+:host {
+  grid-area: nav;
+}
+
+.side-nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $main-color;
+    width: 210px;
+    height: 600px;
+    border-radius: 20px;
+
+    .active > .nav-item {
+        color: $text-color;
+    }
+
+    .logout > .nav-item {
+        color: $logout-color;
+
+        &:hover {
+            color: $logout-color-hover;
+        }
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-left: 15px;
+        width: 150px;
+        color: $text-off-color;
+
+        &:hover {
+            color: $text-color;
+        }
+
+        .icon {
+            height: 24px;
+            width: 24px;
+            margin: auto 0;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        width: 100%;
+        margin-left: 10px;
+        text-align: left;
+        font-family: 'Poppins', serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 19px;
+    }
+
+    hr {
+        width: 125px;
+        margin: 69px auto;
+    }
+}
