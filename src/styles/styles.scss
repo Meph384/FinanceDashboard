@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+$main-color: #272D35;
+
+$purple-gradient: linear-gradient(102.27deg, #5948B7 0%, #602DA2 100%);
+$purple-gradient-2: linear-gradient(102.27deg, #6F59E6 0%, #4F1797 100%);
+$violet-gradient: linear-gradient(102.27deg, #9348B8 0%, #803F8B 100%);
+$yellow-gradient: linear-gradient(160.94deg, #DAC400 1.68%, #A36200 106.32%);
+$pink-gradient: radial-gradient(467.78% 131.3% at 83.37% 8.51%, #8A40FC 0%, #D577F3 53.74%, #FA9BC4 86.98%); /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+
+$text-color: #fff;
+$text-off-color: #a8abae;
+
+$logout-color: #CD5656;
+$logout-color-hover: #df4848;
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 80%;
+  min-width: 100%;
+  background: $main-color;
+}
