@@ -1,0 +1,45 @@
+@import "../../styles/styles.scss";
+
+:host {
+  grid-area: header;
+}
+
+.top-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input {
+    width: 480px;
+    padding: 20px;
+    border: 1px solid $main-color;
+    border-radius: 20px;
+    background-color: $main-color;
+    outline: none;
+    color: $text-color;
+    font-size: 14px;
+
+    &::placeholder {
+        color: $text-off-color;
+    }
+}
+
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 26px;
+    gap: 10px;
+
+    background: #272D35;
+    border-radius: 20px;
+
+    color: $text-color;
+
+  &:hover {
+    background: $purple-gradient;
+    cursor: pointer;
+  }
+}
