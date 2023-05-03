@@ -7,7 +7,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TopNavMenuComponent } from './top-nav-menu/top-nav-menu.component';
 import { ProfileViewComponent } from './profile-view/profile-view.component';
 import { UpgradeToProComponent } from './upgrade-to-pro/upgrade-to-pro.component';
-import { TotalWidgetComponent } from './total-widget/total-widget.component';
+import { TotalFinanceWidgetComponent } from './total-finance-widget/total-finance-widget.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { TotalWidgetComponent } from './total-widget/total-widget.component';
     TopNavMenuComponent,
     ProfileViewComponent,
     UpgradeToProComponent,
-    TotalWidgetComponent
+    TotalFinanceWidgetComponent
   ],
   imports: [
     BrowserModule,
