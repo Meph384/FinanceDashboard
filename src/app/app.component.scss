@@ -5,10 +5,13 @@ body {
 
 .dashboard-container {
   background-color: #0E131A;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   width: 100%;
   padding: 32px 0;
   display: grid;
-  grid-template-columns: 0.3fr repeat(3, 0.7fr) repeat(4, 1fr) 0.3fr;
+  grid-template-columns: 0.3fr repeat(5, 1fr) repeat(2, 0.85fr) 0.3fr;
   grid-template-rows: auto;
   grid-template-areas:
     ". . . . . . . . ."
