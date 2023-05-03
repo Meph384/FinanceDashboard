@@ -14,10 +14,8 @@ body {
   grid-template-columns: 0.3fr repeat(5, 1fr) repeat(2, 0.85fr) 0.3fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". . . . . . . . ."
     ". nav header header header header profile profile ."
     ". nav total-finance total-finance total-expanse total-expanse profile profile ."
     ". nav line-graph line-graph circle-graph circle-graph profile profile ."
-    ". upgrade project project project project send-money send-money ."
-    ". . . . . . . . .";
+    ". upgrade project project project project profile profile .";
 }
