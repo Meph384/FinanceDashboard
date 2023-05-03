@@ -9,9 +9,10 @@
     flex-direction: column;
     justify-content: center;
     background-color: $main-color;
-    width: 210px;
-    height: 600px;
+    padding: 20px 0;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
 
     .active > .nav-item {
         color: $text-color;
