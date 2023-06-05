@@ -8,6 +8,7 @@ import { TopNavMenuComponent } from './top-nav-menu/top-nav-menu.component';
 import { ProfileViewComponent } from './profile-view/profile-view.component';
 import { UpgradeToProComponent } from './upgrade-to-pro/upgrade-to-pro.component';
 import { TotalFinanceWidgetComponent } from './total-finance-widget/total-finance-widget.component';
+import { TotalExpansesWidgetComponent } from './total-expanses-widget/total-expanses-widget.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TotalFinanceWidgetComponent } from './total-finance-widget/total-financ
     TopNavMenuComponent,
     ProfileViewComponent,
     UpgradeToProComponent,
-    TotalFinanceWidgetComponent
+    TotalFinanceWidgetComponent,
+    TotalExpansesWidgetComponent
   ],
   imports: [
     BrowserModule,
