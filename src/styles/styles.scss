@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
 $main-color: #272D35;
 
 $purple-gradient: linear-gradient(102.27deg, #5948B7 0%, #602DA2 100%);
@@ -34,3 +36,6 @@ body {
   min-width: 100%;
   background: $main-color;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
